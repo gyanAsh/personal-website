@@ -16,6 +16,11 @@ const Header = () => {
         {navItem.map(({id,title}) => (
           <NavItem key={id} index={id} text={title} />
         ))}
+        <li>
+          <span id={styles.resume}> 
+            <p>Resume</p>
+          </span>
+        </li>
           </ul>
     </div>
   )

@@ -41,6 +41,9 @@
 }
 .App {
   text-align: center;
+  background-color:var(--navy);
+  height: 100vh;
+  width:100vw;
 }
 
 /* 
@@ -51,30 +54,31 @@
 } */
 
 .App-header {
-  background-color:var(--navy);
-  min-height: 100vh;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 
-/* 
+.pagesContainer{
+  height: 100%;
+  width: 100%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  
+}
 
-/* font-family: Calibre "," Inter "," San Francisco "," SF Pro Text
-		",-apple-system,system-ui,sans-serif"; */
-	/* font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace; */
+.pagesContainer section {
+  flex: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+
+  scroll-snap-align:start;
+}
 
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
   /* Inter */

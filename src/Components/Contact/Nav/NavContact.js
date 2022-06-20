@@ -8,7 +8,7 @@ const NavContact = () => {
         {id:1,icon:<FaGithub/>},
         {id:2,icon:<FaInstagram/>},
         {id:3,icon:<FiTwitter/>},
-        {id:3,icon:<FiLinkedin/>},
+        {id:4,icon:<FiLinkedin/>},
     ]
   return (
       <div className={styles.navContact} style={{bottom:0,left:0}}>

@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* font-family: Calibre "," Inter "," San Francisco "," SF Pro Text
+		",-apple-system,system-ui,sans-serif"; */
+	/* font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace; */
+
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+  /* Inter */
+  @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+  /* Fira Code */

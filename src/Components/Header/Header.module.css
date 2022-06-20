@@ -4,9 +4,37 @@
     left:0;
     width: 100vw;
     height:100px;
-    background-color:pink;
+    padding:0 40px;
 
     display:flex;
-    justify-content:space-between
+    justify-content:space-between;
+    align-items:center;
 }
 
+.navContainer{
+    display:flex;
+    gap:0.4rem;
+    align-items:center;
+    justify-content:center;
+}
+.navContainer img{
+    width:auto;
+}
+
+.navContainer li{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+    padding:7px;
+    font-size:var(--fz-sm);
+    font-family:var(--font-mono);
+
+    transition: color 0.3s ease;
+}
+.navContainer li:hover{
+    color: var(--green);
+}
+.navContainer li span{
+    color: var(--green);
+}

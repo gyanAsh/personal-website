@@ -1,8 +1,8 @@
 import React from 'react'
 
-const About = () => {
+const About = ({createPanelsRefs}) => {
   return (
-    <section id="about"><h1>About</h1></section>
+    <section ref={(e)=>createPanelsRefs(e,1)}><h1>About</h1></section>
   )
 }
 

@@ -1,0 +1,14 @@
+.homeContainer{
+    display:flex;
+    flex-direction:column;
+
+    text-align:left;
+    
+}
+.introContainer{
+    width:70em;
+}
+
+.introContainer h5{
+    color:var(--green);
+}

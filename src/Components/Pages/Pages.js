@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Home from './Home/Home';
 import About from './About/About';
+import '../../App.css';
 
 gsap.registerPlugin(ScrollTrigger);
 

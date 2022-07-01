@@ -11,7 +11,7 @@ const Home = ({createPanelsRefs}) => {
         <br />
         <h2>I build things for fun.</h2>
       </h1>
-      <p>I'm a software enthusiast who dream of creating somthing new and helpful for the community or businesses.
+      <p>I'm a software enthusiast who helps create new and helpful tools for the community or businesses.
           <br />
           <div><span>Currently : </span>
         I'm working as a freelancer, helping small businesses and individuals through software.</div>

@@ -54,7 +54,7 @@ margin-top: 1rem;
 
 .selectedWork{
     border: 1px solid var(--green);
-    margin: 1rem 0rem;
+    margin: 3.5rem 0rem;
     color: var(--green);
     background-color: transparent;
     border: 1px solid var(--green);
@@ -65,4 +65,10 @@ margin-top: 1rem;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.2s ease;
+    background-clip: padding-box;
+}
+
+.selectedWork:hover{
+    background-color: var(--green-tint);
 }

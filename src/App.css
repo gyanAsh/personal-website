@@ -63,7 +63,7 @@ body{
 
   display: flex;
   flex-wrap: nowrap;
-  z-index: -10;
+  /* z-index: -10; */
   
 }
 

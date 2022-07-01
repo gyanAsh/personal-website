@@ -9,12 +9,13 @@ const Home = ({createPanelsRefs}) => {
       <h1>
         Gyan Ashish Ekka
         <br />
-        I build things for fun.
+        <h2>I build things for fun.</h2>
       </h1>
       <p>I'm a software enthusiast who dream of creating somthing new and helpful for the community or businesses.
-        <br />
-        <span>Currently : </span>
-        I'm working as a freelancer, helping small businesses and individuals through software.
+          <br />
+          <div><span>Currently : </span>
+        I'm working as a freelancer, helping small businesses and individuals through software.</div>
+        
       </p>
       </div>
       <div className={styles.selectedWork}>

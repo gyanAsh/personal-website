@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Home from './Home/Home';
 import About from './About/About';
 import '../../App.css';
+import Work from './Work/Work';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -36,6 +37,7 @@ const Pages = () => {
     <div className="pagesContainer" ref={panelsContainer}>
           <Home createPanelsRefs={createPanelsRefs} />
           <About createPanelsRefs={createPanelsRefs} />
+          <Work createPanelsRefs={createPanelsRefs} />
       </div>
   )
 }

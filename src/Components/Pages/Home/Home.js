@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Home.module.css';
 
-const Home = ({createPanelsRefs}) => {
+const Home = ({ createPanelsRefs }) => {  
   return (
     <section ref={(e) => createPanelsRefs(e, 0)} className={styles.homeContainer} >
       <div className={styles.introContainer}>
@@ -18,9 +18,9 @@ const Home = ({createPanelsRefs}) => {
         
       </p>
       </div>
-      <div className={styles.selectedWork}>
-        <p>Selected Work </p>
-      </div>
+      <button onClick={()=>window.scrollBy(0,10)} className={styles.selectedWork}>
+        <p>About Me</p>
+      </button>
       
     </section>
   )

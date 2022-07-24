@@ -5,8 +5,8 @@ import logo from '../../Assets/myLogo.svg';
 const Header = () => {
   const navItem = [
     { id: 1, title: 'About' },
-    { id: 2, title: 'Experince' },
-    { id: 3, title: 'Work' },
+    { id: 2, title: 'Work' },
+    { id: 3, title: 'Experince' },
     { id: 4, title: 'Contact' },
   ];
   return (

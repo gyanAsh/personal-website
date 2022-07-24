@@ -5,6 +5,8 @@ import Home from './Home/Home';
 import About from './About/About';
 import '../../App.css';
 import Work from './Work/Work';
+import Experince from './Experince/Experince';
+import Contact from './Contact/Contact';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -31,6 +33,7 @@ const Pages = () => {
             }
         });
         console.log(panels.current);
+        console.log(panelsContainer.current);
     }, []);
 
   return (
@@ -38,6 +41,8 @@ const Pages = () => {
           <Home createPanelsRefs={createPanelsRefs} />
           <About createPanelsRefs={createPanelsRefs} />
           <Work createPanelsRefs={createPanelsRefs} />
+          <Experince createPanelsRefs={createPanelsRefs} />
+          <Contact createPanelsRefs={createPanelsRefs} />
       </div>
   )
 }
